@@ -204,7 +204,7 @@ main {
   top: -60px;
   left: 0;
   text-transform: none;
-  content: "Nice Cards Project";
+  content: attr(data-content);
   animation: slide-text 1s 3s forwards;
 }
 .cards-container .welcome-card-container .bg-img {

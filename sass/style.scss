@@ -225,7 +225,9 @@ main {
 			top: -60px;
 			left: 0;
 			text-transform: none;
-			content: 'Nice Cards Project';
+			content: attr(data-content);
+			// now handled by date.js
+			// content: 'Nice Cards Project';
 			animation: slide-text 1s 3s forwards;
 		}
 
