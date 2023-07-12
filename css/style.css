@@ -35,10 +35,11 @@ main {
   justify-items: center;
   align-items: center;
   align-content: center;
+  padding-left: 10px;
 }
 .cards-container .slide-card-container {
   position: relative;
-  margin: 10px;
+  margin: 40px auto;
   height: 500px;
   width: 333px;
   overflow: hidden;
@@ -144,22 +145,26 @@ main {
 }
 .cards-container .welcome-card-container .welcome-card {
   position: relative;
-  width: 800px;
-  height: 400px;
+  width: 100vw;
+  max-width: 800px;
+  height: 50vw;
+  max-height: 300px;
   border-radius: 15px;
   overflow: hidden;
   animation: fade 3s;
+  padding: 0px 20px;
 }
 .cards-container .welcome-card-container h1 {
   position: absolute;
   top: 60px;
-  left: 60px;
+  left: 40px;
   font-size: 0;
   text-transform: uppercase;
+  z-index: 1;
 }
 .cards-container .welcome-card-container h1 span {
   display: inline-block;
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
   text-shadow: 2px 2px 5px #000;
   animation: rotate-heading 2s 1s linear forwards;
@@ -188,15 +193,16 @@ main {
 }
 .cards-container .welcome-card-container .text {
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 90px;
+  left: 80px;
   width: 600px;
   height: 300px;
-  font-size: 36px;
+  font-size: 30px;
   color: #fff;
   text-shadow: 2px 2px 5px #000;
   text-transform: uppercase;
   overflow: hidden;
+  z-index: 1;
 }
 .cards-container .welcome-card-container .text::before {
   display: block;
@@ -213,13 +219,15 @@ main {
   background-image: url("../img/nature-3091991_1280.jpg");
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
 }
 .cards-container .welcome-card-container .girl {
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: -400px;
   width: 500px;
   animation: move 1.5s forwards;
+  border-radius: 5px;
 }
 .cards-container .three-cards-container {
   display: flex;
