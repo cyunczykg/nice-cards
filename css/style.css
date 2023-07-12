@@ -39,7 +39,7 @@ main {
 }
 .cards-container .slide-card-container {
   position: relative;
-  margin: 40px auto;
+  margin: 30px auto 10px;
   height: 500px;
   width: 333px;
   overflow: hidden;
@@ -153,6 +153,7 @@ main {
   overflow: hidden;
   animation: fade 3s;
   padding: 0px 20px;
+  margin-bottom: 10px;
 }
 .cards-container .welcome-card-container h1 {
   position: absolute;
@@ -310,6 +311,8 @@ main {
   align-content: center;
   align-items: center;
   position: relative;
+  padding: 10px 0px;
+  margin: 0px auto;
 }
 .cards-container .two-cards-container .one-of-the-two-cards {
   position: relative;
